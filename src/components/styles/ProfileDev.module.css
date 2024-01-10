@@ -1,0 +1,115 @@
+.profile{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    padding: 20px;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.listSpan {
+    font-size: 3.4rem;
+    
+}
+
+.listSpan .animationHome {
+    display: inline-block;
+    animation: bounce 3s ease;
+    text-transform: uppercase;
+}
+
+.listSpan .animationHome:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.listSpan .animationHome:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.listSpan .animationHome:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.listSpan .animationHome:nth-child(5) {
+    animation-delay: 0.8s;
+}
+
+.listSpan .animationHome:nth-child(6) {
+    animation-delay: 1s;
+}
+
+.listSpan .animationHome:nth-child(7) {
+    animation-delay: 1.2s;
+}
+
+.listSpan .animationHome:nth-child(8) {
+    animation-delay: 1.4s;
+}
+
+.listSpan .animationHome:nth-child(9) {
+    animation-delay: 1.6s;
+}
+
+.listSpan .animationHome:nth-child(10) {
+    animation-delay: 1.8s;
+}
+
+.listSpan .animationHome:nth-child(11) {
+    animation-delay: 2s;
+}
+
+.listSpan .animationHome:nth-child(12) {
+    animation-delay: 2.2s;
+}
+
+.listSpan .animationHome:nth-child(13) {
+    animation-delay: 2.4s;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    10% {
+        transform: translateY(-2rem);
+    }
+
+    20% {
+        transform: translateY(0);
+    }
+}
+
+.containerTP
+{
+    height: 60vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+.frontend{
+    text-transform: uppercase;
+    color: #BEF781;
+    font-size: 3.4rem;
+}
+
+.chamada{
+    margin-left: 4px;
+    width: 80%;
+}
+
+.nav{
+    border-top: 2px solid #BEF781;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 10px
+}
+
+.linksProfile{
+    margin: 5px;
+    font-size: 20px;
+}

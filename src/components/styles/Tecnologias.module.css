@@ -1,0 +1,46 @@
+.containerTecnologia{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    border-left-style: solid;
+    border-width: 1px;
+    border-image: linear-gradient(to bottom, #BEF781, #070719) 1;
+    overflow: scroll;
+}
+.containerTecnologia::-webkit-scrollbar {
+    display: none;
+  }
+
+  .containerTecnologia {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+
+.card{
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.card:nth-of-type(1){
+    margin-top: 100px;
+}
+
+.h3{
+    margin-top: 30px;
+    color: #ffffff76;
+}
+
+.introducao{
+    margin: 30px 0;
+}
+.list{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
