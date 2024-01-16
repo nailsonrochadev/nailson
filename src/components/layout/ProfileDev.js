@@ -1,4 +1,4 @@
-import style from '../styles/ProfileDev.module.css'
+import style from '../public/css/ProfileDev.module.css'
 
 import { FaFacebookF, FaWhatsapp, FaInstagram, FaTwitter } from "react-icons/fa";
 
@@ -27,10 +27,10 @@ function Profiledev() {
             </div>
 
             <nav className={style.nav}>
-                <a className={style.linksProfile} href ><FaFacebookF /></a>
-                <a className={style.linksProfile} href ><FaInstagram /></a>
-                <a className={style.linksProfile} href ><FaTwitter /></a>
-                <a className={style.linksProfile} href ><FaWhatsapp /></a>
+                <a className={style.linksProfile} href='true' ><FaFacebookF /></a>
+                <a className={style.linksProfile} href='true' ><FaInstagram /></a>
+                <a className={style.linksProfile} href='true' ><FaTwitter /></a>
+                <a className={style.linksProfile} href='true' ><FaWhatsapp /></a>
             </nav>
         </div>
     )

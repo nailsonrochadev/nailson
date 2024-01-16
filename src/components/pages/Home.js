@@ -1,4 +1,4 @@
-import style from '../styles/Home.module.css'
+import style from '../public/css/Home.module.css'
 
 // import picture from '../static/naizinho.png'
 

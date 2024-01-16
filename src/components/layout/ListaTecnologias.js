@@ -1,4 +1,4 @@
-import style from '../styles/ListaTecnologias.module.css'
+import style from '../public/css/ListaTecnologias.module.css'
 
 
 function ListaTecnologias({ habilidades, ferramentas }) {

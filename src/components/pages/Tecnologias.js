@@ -1,4 +1,4 @@
-import style from '../styles/Tecnologias.module.css'
+import style from '../public/css/Tecnologias.module.css'
 
 
 import ListaTecnologias from '../layout/ListaTecnologias'
@@ -64,13 +64,9 @@ function Tecnologias() {
             <div className={style.card}>
                 <h3 className={style.titulo}>Ferramentas</h3>
                 <p className={style.introducao}>
-                    Os métodos utilizados para codificar são tão importantes
-                    quanto. Onde os dados serão armazenados? Onde manipulá-los?
-                </p>
-                <p className={style.introducao}>
                     Tecnologia é um universo e, tudo se complementa.
                     Nesse caso, meus conhecimentos vão além do
-                    desenvolvimento seco e raso.
+                    desenvolvimento. 
                 </p>            
 
                 <div className={style.list}>
@@ -88,6 +84,9 @@ function Tecnologias() {
                     />
                     <ListaTecnologias
                         ferramentas ='GitHub'
+                    />
+                     <ListaTecnologias
+                        ferramentas ='Docker'
                     />
                 </div>
 
