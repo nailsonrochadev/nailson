@@ -1,16 +1,18 @@
 .profile{
     width: 50%;
-    height: 90vh;
+    height: 70vh;
     display: flex;
-    padding: 20px;
+    padding: 60px;
     flex-flow: column;
     align-items: flex-start;
     justify-content: center;
+    color: #BDBDBD;
 }
 
 
 .listSpan {
-    font-size: 3.4rem;
+    font-size: 3.2rem;
+    width: fit-content;
     
 }
 
@@ -48,25 +50,6 @@
     animation-delay: 1.4s;
 }
 
-.listSpan .animationHome:nth-child(9) {
-    animation-delay: 1.6s;
-}
-
-.listSpan .animationHome:nth-child(10) {
-    animation-delay: 1.8s;
-}
-
-.listSpan .animationHome:nth-child(11) {
-    animation-delay: 2s;
-}
-
-.listSpan .animationHome:nth-child(12) {
-    animation-delay: 2.2s;
-}
-
-.listSpan .animationHome:nth-child(13) {
-    animation-delay: 2.4s;
-}
 
 @keyframes bounce {
     0% {
@@ -93,25 +76,27 @@
 
 .frontend{
     text-transform: uppercase;
-    color: #BEF781;
-    font-size: 3.4rem;
+    font-size: 3.2rem;
+    color: #81F781;
 }
 
 .chamada{
-    margin-left: 4px;
     width: 80%;
+    margin-top: 35px;
 }
 
 .nav{
-    border-top: 2px solid #BEF781;
     width: fit-content;
-    padding: 10px;
-    margin-top: 10px
+    padding: 10px 0px;
+    margin-top: 10px;
 }
 
 .linksProfile{
     margin: 5px;
-    font-size: 20px;
-    color: #fff
-    ;
+    font-size: 30px;
+    color: #A4A4A4;
+}
+
+.linksProfile:hover{
+    color: #81F781;
 }

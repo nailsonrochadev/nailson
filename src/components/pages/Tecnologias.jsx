@@ -10,8 +10,8 @@ function Tecnologias() {
     return (
         <div className={style.containerTecnologia}>
             <div className={style.card}>
-                <h2 className={style.h2}>Front-End</h2>
-                <h3 className={style.h3}>Desenvolvimento WEB</h3>
+                <h2 className={style.h2}>Frontend</h2>
+                <h3 className={style.h3}>Development WEB</h3>
                 <p className={style.introducao}>
                     Para criar aplicações bonitas, por mais simples que seja,
                     necessitamos de ferramentas que nos possibilitem criá-las.
@@ -32,16 +32,12 @@ function Tecnologias() {
                         habilidades='ReactJS'
                     />
                 </div>
-
+                
             </div>
             <div className={style.card}>
-                <h3 className={style.titulo}>Back-End</h3>
-                <h3 className={style.h3}>Desenvolvimento WEB</h3>
+                <h2 className={style.titulo}>Backend</h2>
+                <h3 className={style.h3}>Development WEB</h3>
                 <p className={style.introducao}>
-                    - "O que não é visto não é lembrado".
-                </p>
-                <p className={style.introducao}>
-                    Não para o bando de dados. Aqui, tudo é lembrado. 
                     As possibilidades de manipulação de dados com o Node 
                     podem até ser subestimadas, mas não deveria. 
                 </p>
@@ -62,11 +58,10 @@ function Tecnologias() {
 
             </div>
             <div className={style.card}>
-                <h3 className={style.titulo}>Ferramentas</h3>
+                <h2 className={style.titulo}>Tools</h2>
                 <p className={style.introducao}>
                     Tecnologia é um universo e, tudo se complementa.
-                    Nesse caso, meus conhecimentos vão além do
-                    desenvolvimento. 
+                    Nesse caso, meus conhecimentos vão além da codificação. 
                 </p>            
 
                 <div className={style.list}>
