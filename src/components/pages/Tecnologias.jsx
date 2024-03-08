@@ -10,6 +10,7 @@ function Tecnologias() {
     return (
         <div className={style.containerTecnologia}>
             <div className={style.card}>
+                <h1>Hard Skills</h1>
                 <h2 className={style.h2}>Frontend</h2>
                 <h3 className={style.h3}>Development WEB</h3>
                 <p className={style.introducao}>

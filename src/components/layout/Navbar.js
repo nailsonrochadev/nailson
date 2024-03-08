@@ -31,7 +31,7 @@ function Navbar(){
                 </li>
                 <li className={style.list} >
                     <Link className={style.item} to="/tecnologias">
-                        Hard <span>Skills</span>
+                        Sk<span>ills</span>
                     </Link>
                 </li>
             

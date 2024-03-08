@@ -20,6 +20,7 @@ function Home() {
     return (
         <div className={style.home}>
             <div className={style.cardResumo}>
+                <h1>About</h1>
                 <p className={style.resumo}>
                     Em 2022 decidi orbitar em tecnologia conhecendo o universo da programação.
                     Uma grata supresa. Fui atraído por códigos que tem capacidade de entregar interfaces perfeitas ao usuário. Ida sem volta.

@@ -56,8 +56,34 @@
 .list:hover .item span{
    transition-duration: 1s;
    letter-spacing: 10px;
-   background-color: #A4A4A4;
+}
+
+
+@media only screen and (max-width: 767px ) {
+  .nav{
+   border: 1px solid red;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+  }
+
+  .caixaLogo{
+   display: none;
+  }
+  
+  .ul{
+   width: 100%;
+  }
+
+  .list:hover .item span{
+   transition-duration: 1s;
+   letter-spacing: 10px;
+   background-color: transparent;
    padding: 3px;
+   border: none;
    border-radius: 5px;   
-   color: #070719;
+   color: #A4A4A4;
+   }
+
 }

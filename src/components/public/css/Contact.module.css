@@ -1,0 +1,14 @@
+
+.nav{
+    width: fit-content;
+}
+
+.links{
+    margin: 5px;
+    font-size: 26px;
+    color: #A4A4A4;
+}
+
+.links:hover{
+    color: #81F781;
+}

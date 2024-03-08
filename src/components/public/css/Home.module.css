@@ -11,7 +11,17 @@
 .cardResumo{
     display: flex;
     flex-flow: column;
-    align-items: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.cardResumo h1{
+    width: fit-content;
+    background-color: #81F781;
+    color: #070719;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 10px;
 }
 
 .home::-webkit-scrollbar {
@@ -26,11 +36,11 @@
 
 .resumo{
     width: 80%;
-    padding: 20px;
+    margin-bottom: 30px;
 }
 
 .cardAcademy{
-    width: 80%;
+    width: 100%;
     height: auto;
     padding: 20px;
     margin-bottom: 20px;
@@ -63,4 +73,35 @@
 
 .cardAcademy span{
     color: #A4A4A4;
+}
+
+@media only screen and (max-width: 767px ) {
+    .home{
+        width: 100%;
+        padding: 0;
+        overflow: none;
+        height: auto;
+    }
+    .resumo, .cardAcademy{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .resumo{
+        margin-bottom: 20px;
+    }
+
+    .cardResumo{
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .cardResumo h1{
+        width: fit-content;
+        padding: 10px;
+    }
+    
 }

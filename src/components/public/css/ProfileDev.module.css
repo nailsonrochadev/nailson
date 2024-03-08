@@ -11,7 +11,7 @@
 
 
 .listSpan {
-    font-size: 3.2rem;
+    font-size: 2.5rem;
     width: fit-content;
     
 }
@@ -76,7 +76,7 @@
 
 .frontend{
     text-transform: uppercase;
-    font-size: 3.2rem;
+    font-size: 2.5rem;
     color: #81F781;
 }
 
@@ -85,18 +85,15 @@
     margin-top: 35px;
 }
 
-.nav{
-    width: fit-content;
-    padding: 10px 0px;
-    margin-top: 10px;
-}
 
-.linksProfile{
-    margin: 5px;
-    font-size: 30px;
-    color: #A4A4A4;
-}
+@media only screen and (max-width: 767px ) {
+    .profile{
+        width: 100%;
+        padding: 10px;
+    }
 
-.linksProfile:hover{
-    color: #81F781;
+    .chamada{
+        width: 100%;
+        margin: 10px 0 0 0 ;
+    }
 }

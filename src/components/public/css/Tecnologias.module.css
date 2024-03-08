@@ -24,6 +24,15 @@
     border-radius: 10px;
 }
 
+.card h1{
+    background-color: #81F781;
+    color: #070719;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
 .card:hover{
     
     transition-duration: 1s;
@@ -49,4 +58,26 @@
     justify-content: flex-start;
     align-items: center;
     height: 80px;
+}
+
+
+@media only screen and (max-width: 767px ) {
+    .containerTecnologia{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        overflow: none;
+        padding: 0;
+    }
+
+    .card{
+        width: 100%;
+        margin: auto 0;
+        padding: 10px;
+    }
+
+    
+
+    
 }
