@@ -61,7 +61,6 @@
 
 @media only screen and (max-width: 767px ) {
   .nav{
-   border: 1px solid red;
    width: 100%;
    display: flex;
    justify-content: space-around;
