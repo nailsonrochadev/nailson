@@ -1,14 +1,17 @@
 
 .nav{
     width: fit-content;
+    height: auto;
+    border-bottom: 1px solid #088A68;
+    padding: 20px 0;
 }
 
 .links{
-    margin: 5px;
     font-size: 26px;
     color: #A4A4A4;
+    margin-right: 10px;
 }
 
 .links:hover{
-    color: #81F781;
+    color: #088A68;
 }

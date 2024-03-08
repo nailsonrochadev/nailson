@@ -3,13 +3,13 @@
     list-style: none;
     padding: 5px;
     border-radius: 5px;
-    border: 1px solid #bef78162;
+    border: 1px solid #088A68;
     margin: 0  5px 0 0;    
 }
 
 .listHabilidades, .listFerramentas{
    font-size: 12px;
    letter-spacing: 5px;
-    color: #BEF781;
+    color: #088A68;
 }
 
