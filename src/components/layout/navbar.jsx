@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import style from '../public/css/Navbar.module.css'
+import style from '../public/css/navbar.module.css'
 
 function Navbar(){
     
@@ -30,7 +30,7 @@ function Navbar(){
                     </Link>
                 </li>
                 <li className={style.list} >
-                    <Link className={style.item} to="/tecnologias">
+                    <Link className={style.item} to="/hardSkills">
                         Sk<span>ills</span>
                     </Link>
                 </li>

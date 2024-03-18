@@ -1,8 +1,8 @@
-import style from '../public/css/ProfileDev.module.css'
-import Contact from './Contact'
+import style from '../public/css/FixedScreen.module.css'
+import Contact from '../layout/contacts'
 
 
-function Profiledev() {
+function FixedScreen() {
     return (
         <div className={style.profile}>
             <div className={style.containerTP}>
@@ -24,4 +24,4 @@ function Profiledev() {
     )
 }
 
-export default Profiledev
+export default FixedScreen

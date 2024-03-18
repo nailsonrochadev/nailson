@@ -5,14 +5,14 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import style from './App.module.css'
 
 // importando rotas
-import Tecnologias from "./components/pages/Tecnologias";
+import HardSkills from "./components/pages/hardSkills";
 
 
 // importando layouts
-import Navbar from "./components/layout/Navbar";
-import Container from "./components/layout/Container";
-import Profiledev from "./components/layout/ProfileDev";
-import Home from "./components/pages/Home";
+import Navbar from "./components/layout/navbar";
+import Container from "./components/layout/container";
+import FixedScreen from "./components/pages/fixedScreen";
+import Home from "./components/pages/home";
 
 
 function App() {
@@ -25,10 +25,10 @@ function App() {
                 </div>
                 
                 <Container>
-                    <Profiledev/>
+                    <FixedScreen/>
                     <Routes>
                         <Route exact path="/" element={<Home/>} />
-                        <Route path="/tecnologias" element={<Tecnologias />} />
+                        <Route path="/hardSkills" element={<HardSkills />} />
                         {/* <Route path="/tools" element={<Tools />} /> */}
                     </Routes>
                 </Container>

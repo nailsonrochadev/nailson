@@ -1,10 +1,10 @@
-import style from '../public/css/Tecnologias.module.css'
+import style from '../public/css/hardSkills.module.css'
 
 
-import ListaTecnologias from '../layout/ListaTecnologias'
+import Props from '../layout/props'
 
 
-function Tecnologias() {
+function HardSkills() {
 
 
     return (
@@ -20,16 +20,16 @@ function Tecnologias() {
                     interfaces do papel e torná-las visualmente funcionais.
                 </p>
                 <div className={style.list}>
-                    <ListaTecnologias
+                    <Props
                         habilidades='HTML'
                     />
-                    <ListaTecnologias
+                    <Props
                         habilidades='CSS'
                     />
-                    <ListaTecnologias
+                    <Props
                         habilidades='JavaScript'
                     />
-                    <ListaTecnologias
+                    <Props
                         habilidades='ReactJS'
                     />
                 </div>
@@ -49,10 +49,10 @@ function Tecnologias() {
                     de comunicação WebSocket. 
                 </p>
                 <div className={style.list}>
-                    <ListaTecnologias
+                    <Props
                         habilidades='Node'
                     />
-                    <ListaTecnologias
+                    <Props
                         habilidades='Express'
                     />
                 </div>
@@ -66,22 +66,22 @@ function Tecnologias() {
                 </p>            
 
                 <div className={style.list}>
-                    <ListaTecnologias
+                    <Props
                         ferramentas ='Mongo DB'
                     />
-                    <ListaTecnologias
+                    <Props
                         ferramentas ='MySQL'
                     />
-                    <ListaTecnologias
+                    <Props
                         ferramentas ='Scrum'
                     />
-                    <ListaTecnologias
+                    <Props
                         ferramentas ='Git'
                     />
-                    <ListaTecnologias
+                    <Props
                         ferramentas ='GitHub'
                     />
-                     <ListaTecnologias
+                     <Props
                         ferramentas ='Docker'
                     />
                 </div>
@@ -92,4 +92,4 @@ function Tecnologias() {
     )
 }
 
-export default Tecnologias
+export default HardSkills

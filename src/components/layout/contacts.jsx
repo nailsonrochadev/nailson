@@ -1,6 +1,6 @@
 import React from "react"
 
-import style from '../public/css/Contact.module.css'
+import style from '../public/css/contacts.module.css'
 
 import { FaWhatsapp, FaInstagram, FaLinkedin, FaGithubSquare, FaFacebookSquare } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";

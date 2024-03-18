@@ -1,7 +1,7 @@
-import style from '../public/css/ListaTecnologias.module.css'
+import style from '../public/css/props.module.css'
 
 
-function ListaTecnologias({ habilidades, ferramentas }) {
+function Props({ habilidades, ferramentas }) {
     return (
         <ul className={style.ul}>
             <li className={style.listHabilidades}>
@@ -15,4 +15,4 @@ function ListaTecnologias({ habilidades, ferramentas }) {
     )
 }
 
-export default ListaTecnologias
+export default Props
